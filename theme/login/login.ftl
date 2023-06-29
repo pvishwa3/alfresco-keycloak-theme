@@ -20,12 +20,9 @@
         </script>
     <#elseif section = "form">
         <div>
-            <img class="logo" src="${url.resourcesPath}/img/alfresco-logo.svg" alt="Alfresco">
+            <div class="logo">Convey.ai</div>
         </div>
-        <div class="box-container">
-            <div>
-                <p class="application-name">Alfresco Identity Service</p>
-            </div>
+        
         <#if realm.password>
             <div>
                <form id="kc-form-login" class="form" onsubmit="return true;" action="${url.loginAction}" method="post">
