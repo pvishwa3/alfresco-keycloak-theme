@@ -47,8 +47,6 @@
             </div>
         </#if>
         </div>
-        <div>
-            <p class="copyright">&copy; ${msg("copyright", "${.now?string('yyyy')}")}</p>
-        </div>
+        
     </#if>
 </@layout.registrationLayout>
